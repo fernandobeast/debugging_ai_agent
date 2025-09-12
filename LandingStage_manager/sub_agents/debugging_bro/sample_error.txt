@@ -1,0 +1,66 @@
+
+Today: 2025-07-15 at 22:36:33.092877
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+CRITICAL:root:Tradingview eod_m1_data function: Error tv m1 or daily data for CYCC on NASDAQ!!!!!!! 
+'NoneType' object does not support item assignment
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+CRITICAL:root:Tradingview eod_m1_data function: Error tv m1 or daily data for XAGE on NASDAQ!!!!!!! 
+'NoneType' object does not support item assignment
+22:37:35.810 | INFO    | Task run 'download_tv_eod' - Finished in state Completed()
+22:37:35.845 | INFO    | Task run 'upsert_eod_only' - 2025-07-15 22:37:35, Upload successful, table: below_sixm_onemin, Inserted 589 records
+22:37:35.899 | INFO    | Task run 'upsert_eod_only' - 2025-07-15 22:37:35, Upload successful, table: below_sixm_daily, Inserted 214 records
+22:38:06.506 | INFO    | Task run 'dt_daily_eod_download' - Finished in state Completed()
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+CRITICAL:root:Tradingview eod_m1_data function: Error tv m1 or daily data for MOVE on NASDAQ!!!!!!! 
+'NoneType' object is not subscriptable
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+CRITICAL:root:Tradingview eod_m1_data function: Error tv m1 or daily data for GRO on AMEX!!!!!!! 
+'NoneType' object is not subscriptable
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+CRITICAL:root:Tradingview eod_m1_data function: Error tv m1 or daily data for BLMZ on NASDAQ!!!!!!! 
+'NoneType' object does not support item assignment
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+CRITICAL:root:Tradingview eod_m1_data function: Error tv m1 or daily data for PROK on NASDAQ!!!!!!! 
+'NoneType' object does not support item assignment
+22:38:27.016 | INFO    | Task run 'download_tv_eod' - Finished in state Completed()
+22:38:27.062 | INFO    | Task run 'upsert_eod_only' - 2025-07-15 22:38:27, Upload successful, table: above_sixm_onemin, Inserted 502 records
+22:38:27.140 | INFO    | Task run 'upsert_eod_only' - 2025-07-15 22:38:27, Upload successful, table: above_sixm_daily, Inserted 613 records
+22:38:27.142 | INFO    | Task run 'upsert_eod_only' - Finished in state Completed()
+22:38:27.152 | INFO    | Flow run 'EOD 2025-07-15 22:36:33' - Finished in state Completed()
+22:38:27.236 | INFO    | prefect - Stopping temporary server on http://127.0.0.1:8093
+Tue Jul 15 10:38:28 PM EDT 2025 - SUCCESS: Daily Mover script ran successfully!
+
+
+Today: 2025-09-09 at 22:36:33.092877
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+
+'NoneType' object does not support item assignment
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+CRITICAL:root:Tradingview eod_m1_data function: Error tv m1 or daily data for DSY on NASDAQ!!!!!!! 
+'NoneType' object does not support item assignment
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+
+'NoneType' object is not subscriptable
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+CRITICAL:root:Tradingview eod_m1_data function: Error tv m1 or daily data for QMMM on AMEX!!!!!!! 
+'NoneType' object is not subscriptable
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+CRITICAL:root:Tradingview eod_m1_data function: Error tv m1 or daily data for TSLA on NASDAQ!!!!!!! 
+'NoneType' object does not support item assignment
+ERROR:tvDatafeed.main:Connection to remote host was lost.
+ERROR:tvDatafeed.main:no data, please check the exchange and symbol
+
+'NoneType' object does not support item assignment
+22:38:27.236 | INFO    | prefect - Stopping temporary server on http://127.0.0.1:8093
+Tue Sep 09 10:38:28 PM EDT 2025 - SUCCESS: Daily Mover script ran successfully!
