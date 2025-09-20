@@ -36,7 +36,7 @@ def get_error_text() -> Dict[str, Any]:
       - Merge them (with a clear divider) and apply a line cap.
     """
     # Fixed path (per your setup)
-    _ERROR_PATH = Path("/home/fernando/Documents/ai_agent/LandingStage_manager/sub_agents/debugging_bro/sample_error.txt")
+    _ERROR_PATH = Path("ai_agent/LandingStage_manager/sub_agents/debugging_bro/sample_error.txt")
     # Token-safe caps (tweak as needed)
     HEAD_BYTES   = 64_000    # first ~64KB
     TAIL_BYTES   = 128_000   # last  ~128KB
