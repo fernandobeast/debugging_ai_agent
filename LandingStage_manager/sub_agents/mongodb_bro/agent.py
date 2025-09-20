@@ -27,14 +27,7 @@ mongodb_bro = Agent(
 
     instruction=MONGO_BRO_PROMPT,
     tools=[
-        # MCPToolset(connection_params=StdioConnectionParams(
-        #     server_params= {
-        #     "command" : "docker",
-        #     "args" : ["run", "--rm", "-i","--network", "mongo-network",
-        #     "-e", "MDB_MCP_CONNECTION_STRING=mongodb://fernando:lljwan5926@mongo:27017/?authSource=admin",
-        #     "-e", "MDB_MCP_READ_ONLY=true",
-        #     "mongodb/mongodb-mcp-server:latest"]}
-        #     )),
+
         MCPToolset(connection_params=StdioConnectionParams(
             server_params= {
             "command" : "npx",
